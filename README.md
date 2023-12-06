@@ -2,9 +2,11 @@
 
 ### Properties - 
 
-Avro schema - avro schema text for decoding
+`avroSchema` - avro schema text for decoding
 
-Base64 encoding used - true/false, is Base64 encoding used to convert avro binary data into avro string?
+`isBase64EncodingUsed` - true/false, is Base64 encoding used to convert avro binary data into avro string?
+
+`isJsonPathsRequired` - indicates whether json paths are written to a FlowFile attribute.
 
 ### Build
 
@@ -12,5 +14,5 @@ Base64 encoding used - true/false, is Base64 encoding used to convert avro binar
 
 ### Setup
 
-Add the `nifi-custom-avro-decoder-nar/target/nifi-custom-avro-decoder-nar-1.0.nar` file in the `lib/` directory.
+Add the `nifi-custom-avro-decoder-nar/target/nifi-custom-avro-to-json-nar-1.0.nar` file in the `lib/` directory.
 
