@@ -1,4 +1,4 @@
-## Nifi Custom Avro Decoder
+## Nifi Custom Avro To Json
 
 ### Properties - 
 
@@ -14,5 +14,5 @@
 
 ### Setup
 
-Add the `nifi-custom-avro-decoder-nar/target/nifi-custom-avro-to-json-nar-1.0.nar` file in the `lib/` directory.
+Add the `nifi-custom-avro-to-json-nar/target/nifi-custom-avro-to-json-nar-1.0.nar` file in the `lib/` directory.
 
