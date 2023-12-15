@@ -16,5 +16,5 @@ This NiFi processor converts Binary Avro records (possibly Base64-encoded) into 
 
 ### Setup
 
-Add the `nifi-custom-avro-to-json-nar/target/nifi-custom-avro-to-json-nar-1.0.nar` file in the `lib/` directory.
+Add the `nifi-custom-avro-to-json-nar/target/nifi-custom-avro-to-json-nar-1.0.nar` file in the `lib/` directory of Nifi setup.
 
