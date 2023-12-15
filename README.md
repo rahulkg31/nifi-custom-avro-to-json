@@ -1,12 +1,14 @@
-## Nifi Custom Avro To Json
+## Nifi Custom Avro to JSON Processor
 
-### Properties - 
+### Description
 
-`avroSchema` - avro schema text for decoding
+This NiFi processor converts Binary Avro records (possibly Base64-encoded) into JSON objects. It provides an option to include JSON paths in FlowFile attributes.
 
-`isBase64EncodingUsed` - true/false, is Base64 encoding used to convert avro binary data into avro string?
+### Properties
 
-`isJsonPathsRequired` - indicates whether json paths are written to a FlowFile attribute.
+- `avroSchema`: Avro schema text for decoding.
+- `isBase64EncodingUsed`: Specifies if Base64 encoding is used to convert Avro binary data into Avro strings.
+- `isJsonPathsRequired`: Indicates whether JSON paths are written to a FlowFile attribute.
 
 ### Build
 
